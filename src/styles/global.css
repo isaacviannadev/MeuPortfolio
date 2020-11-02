@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background: #161616;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 200 18px Quicksand, sans-serif;
+    outline: none;
+}
