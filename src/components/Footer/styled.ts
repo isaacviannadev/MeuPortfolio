@@ -6,8 +6,12 @@ export const Foot = styled.footer`
   background: #090909;
 
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
+
+  z-index: 8;
+
 
   p {
     color: #555555;

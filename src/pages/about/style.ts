@@ -10,7 +10,8 @@ export const Main = styled.main`
   align-items: center;
 
   img {
-    max-width: 50%;
+    position: relative;
+    max-width: 40%;
     margin-right: 20px;
     border-radius: 2% 50% 50% 50%;
     border: 3px solid #eac400;
@@ -18,13 +19,12 @@ export const Main = styled.main`
 
     &:hover {
       box-shadow: 24px 17px 5px -7px rgba(0, 0, 0, 0.5);
-      max-width: 51%;      
+      max-width: 41%;
     }
   }
 
   h1 {
     font: 900 70px Turret Road;
-    z-index: 1;
   }
 
   p {
@@ -41,8 +41,8 @@ export const Main = styled.main`
     display: flex;
 
     a {
-      width: 70px;
-      height: 70px;
+      width: 50px;
+      height: 50px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -59,6 +59,30 @@ export const Main = styled.main`
       &:hover {
         color: #000;
         background-color: #eac400;
+      }
+    }
+  }
+
+  @media (max-width: 720px) {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    div.social {
+      a {
+        width: 40px;
+        height: 40px;
       }
     }
   }

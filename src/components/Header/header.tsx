@@ -4,6 +4,7 @@ import { Header } from "./style";
 
 import imgLogo from "../../images/logop.svg";
 import { Link } from "react-router-dom";
+import { FiMenu } from "react-icons/fi";
 
 function HeadMenu() {
   return (
@@ -11,20 +12,17 @@ function HeadMenu() {
       <Link to="/">
         <img src={imgLogo} alt="Isaac Dev" />
       </Link>
-      <div>
-        <Link to="/about">
-          <strong>Sobre |</strong>
-        </Link>
-        <Link to="/services">
-          <strong>Serviços |</strong>
-        </Link>
-        <Link to="/portfolio">
-          <strong>Portfólio |</strong>
-        </Link>
-        <Link to="/contato">
-          <strong>Contato</strong>
-        </Link>
-      </div>
+
+      <a href="/" className="menu">
+        <i className="fa fa-bars">{FiMenu}</i>
+      </a>
+
+      <nav>
+        <Link to="/about">Sobre</Link>
+        <Link to="/services">Serviços</Link>
+        <Link to="/portfolio">Portfólio</Link>
+        <Link to="/contato">Contato</Link>
+      </nav>
     </Header>
   );
 }

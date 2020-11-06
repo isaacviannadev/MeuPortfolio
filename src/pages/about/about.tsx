@@ -27,22 +27,22 @@ function About() {
           <div className="social">
             <a
               href="https://github.com/isaacviannadev"
-              target="_blank no-referrer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <FiGithub size={28} />
+              <FiGithub size={20} />
             </a>
             <a
               href="https://www.linkedin.com/in/isaacvianna"
-              target="_blank no-referrer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <FiLinkedin size={28} />
+              <FiLinkedin size={20} />
             </a>
           </div>
         </div>
       </Main>
-
       <Footer />
-
     </>
   );
 }

@@ -6,6 +6,9 @@ export const Header = styled.header`
   background: #090909;
 
   display: flex;
+  position: relative;
+  z-index: 9;
+
   justify-content: space-between;
   align-items: center;
 
@@ -14,17 +17,15 @@ export const Header = styled.header`
   }
 
   a {
-    margin-right: 20px;
+    margin-right: 40px;
     text-decoration: none;
-  }
-
-  strong {
-    font-family: Turret Road;
-    color: #424242;
-    transition: color 0.2s;
+    font: 200 18px Turret Road;
+    color: #696969;
+    transition: 0.2s;
 
     &:hover {
       color: #eac400;
+      font-weight: bold;
     }
   }
 `;
