@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {UlRight} from './styles/rightNavStyle';
+import { UlRight } from "./styles/rightNavStyle";
 
-function RightNav() {
+function RightNav({ open } : {open: any}) {
   return (
-    <UlRight>
+    <UlRight open={open}>
       <li>
         <Link to="/about">Sobre</Link>
       </li>
