@@ -6,7 +6,7 @@ function Footer() {
   return (
     <Foot>
       <p>
-        Orgulhosamente desenvolvido por mim mesmo, <b>Isaac Vianna!</b>
+       Desenvolvido por, <strong>Isaac Vianna!</strong>
       </p>
     </Foot>
   );

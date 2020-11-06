@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Header = styled.header`
+export const Header = styled.nav`
   max-width: 100vw;
   height: 60px;
   background: #090909;
@@ -14,18 +14,5 @@ export const Header = styled.header`
 
   img {
     margin: 0 20px;
-  }
-
-  a {
-    margin-right: 40px;
-    text-decoration: none;
-    font: 200 18px Turret Road;
-    color: #696969;
-    transition: 0.2s;
-
-    &:hover {
-      color: #eac400;
-      font-weight: bold;
-    }
   }
 `;
