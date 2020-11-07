@@ -6,7 +6,7 @@ export const Foot = styled.footer`
   background: #090909;
 
   display: flex;
-  position: relative;
+  /* position: relative; */
   align-items: center;
   justify-content: center;
 
