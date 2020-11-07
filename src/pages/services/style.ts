@@ -9,7 +9,7 @@ export const Container = styled.div`
   align-items: center;
 
   .cardBg {
-    width: 80%;
+    width: 75%;
     height: 90%;
     margin: 40px;
 
@@ -34,6 +34,10 @@ export const Container = styled.div`
     width: 350px;
     height: 90%;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background-color: #d1d1d1;
     border: 2px solid #000000;
     border-radius: 30px;
@@ -44,7 +48,7 @@ export const Container = styled.div`
     &:hover {
       box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.7);
       transform: translateX(-1%) translateY(-1%);
-      border: 4px solid #eac400;
+      /* border: 1px solid #eac400; */
     }
   }
 
@@ -57,12 +61,22 @@ export const Container = styled.div`
 
   img {
     position: relative;
-    width: 160px;
+    width: 120px;
     top: 10px;
+    
   }
 
-  h1 {
-    max-width: 300px;
-    font-size: 30px;
+  h1,p {
+    font: bold 24px Turret Road;
+    margin: 30px auto;
+    color: #000000;
+
+    text-align: center;
+  }
+
+  p {
+    font: 400 20px Turret Road;
+    
+    
   }
 `;

@@ -16,16 +16,40 @@ function Services() {
       <Container>
         <div className="cardBg">
           <div className="card1">
-            <div className="image">
-              <img src={devImg} alt="desenvolvimento web" />
-            </div>
+            <img src={devImg} alt="desenvolvimento web" />
             <h1>Desenvolvimento Web</h1>
+
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              libero eos quasi id necessitatibus et vel veniam dolorum, suscipit
+              tenetur odio nisi eveniet placeat eius corrupti omnis alias!
+              Fugit, quasi?
+            </p>
           </div>
           <div className="card2">
             <img src={mobImg} alt="desenvolvimento web" />
+            <h1>Desenvolvimento Web</h1>
+
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              libero eos quasi id necessitatibus et vel veniam dolorum, suscipit
+              tenetur odio nisi eveniet placeat eius corrupti omnis alias!
+              Fugit, quasi?
+            </p>
           </div>
           <div className="card3">
             <img src={designImg} alt="desenvolvimento web" />
+            <h1>Desenvolvimento Web</h1>
+
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              libero eos quasi id necessitatibus et vel veniam dolorum, suscipit
+              tenetur odio nisi eveniet placeat eius corrupti omnis alias!
+              Fugit, quasi?
+            </p>
           </div>
         </div>
       </Container>
