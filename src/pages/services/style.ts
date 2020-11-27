@@ -63,10 +63,10 @@ export const Container = styled.div`
     position: relative;
     width: 120px;
     top: 10px;
-    
   }
 
-  h1,p {
+  h1,
+  p {
     font: bold 24px Turret Road;
     margin: 30px auto;
     color: #000000;
@@ -75,8 +75,19 @@ export const Container = styled.div`
   }
 
   p {
-    font: 400 20px Turret Road;
-    
-    
+    font: 400 16px Turret Road;
+    margin: 0 15px;
+  }
+
+  @media (max-width: 760px) {
+    height:100%;
+
+  .cardBg {
+    flex-direction: column;
+  }
+    div.card1,
+    .card2,
+    .card3 {
+    }
   }
 `;
