@@ -9,8 +9,8 @@ export const StyledBurger = styled.div.attrs((props: PropTypeOpen) => ({
 }))<PropTypeOpen>`
   width: 2rem;
   height: 2rem;
-  position: fixed;
-  top: 15px;
+  position: relative;
+  /* top: 15px; */
   right: 20px;
   z-index: 20;
   display: none;
