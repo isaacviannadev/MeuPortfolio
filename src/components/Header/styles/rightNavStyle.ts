@@ -15,7 +15,7 @@ export const UlRight = styled.ul.attrs((props: PropOpenNav) => ({
     margin-right: 40px;
     text-decoration: none;
     font: 200 18px Turret Road;
-    color: #696969;
+    color: #888888;
     transition: 0.2s;
 
     &:hover {

@@ -11,7 +11,8 @@ export const Main = styled.main`
 
   img {
     position: relative;
-    max-width: 40%;
+    width:40%;
+    max-width: 480px;
     margin-right: 20px;
     border-radius: 2% 50% 50% 50%;
     border: 3px solid #eac400;
@@ -66,9 +67,12 @@ export const Main = styled.main`
   @media (max-width: 720px) {
     display: flex;
     flex-direction: column;
+    text-align: center;
 
     img {
-      margin-bottom: 40px;
+      margin: 20px 0;
+      border-radius:5% 50% 50% 50%;
+
     }
 
     h1 {

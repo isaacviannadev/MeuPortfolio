@@ -20,7 +20,6 @@ function Services() {
             <h1>Web</h1>
 
             <p>
-              {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
               libero eos quasi id necessitatibus et vel veniam dolorum, suscipit
               tenetur odio nisi eveniet placeat eius corrupti omnis alias!
@@ -32,7 +31,6 @@ function Services() {
             <h1>Mobile</h1>
 
             <p>
-              {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
               libero eos quasi id necessitatibus et vel veniam dolorum, suscipit
               tenetur odio nisi eveniet placeat eius corrupti omnis alias!
@@ -44,7 +42,6 @@ function Services() {
             <h1>Design</h1>
 
             <p>
-              {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
               libero eos quasi id necessitatibus et vel veniam dolorum, suscipit
               tenetur odio nisi eveniet placeat eius corrupti omnis alias!

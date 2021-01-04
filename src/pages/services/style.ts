@@ -9,7 +9,7 @@ export const Container = styled.div`
   align-items: center;
 
   .cardBg {
-    width: 75%;
+    width: 90vw;
     height: 90%;
     margin: 40px;
 
@@ -63,10 +63,9 @@ export const Container = styled.div`
     position: relative;
     width: 120px;
     top: 10px;
-    
   }
 
-  h1,p {
+  h1 {
     font: bold 24px Turret Road;
     margin: 30px auto;
     color: #000000;
@@ -75,10 +74,39 @@ export const Container = styled.div`
   }
 
   p {
+<<<<<<< HEAD
     font: 400 20px Turret Road;
     margin: 0 20px;
     
     
+=======
+    font: 400 16px Turret Road;
+    margin: 0 15px;
+    color: #000000;
+    text-align: center;
+
+
+  }
+
+  @media (max-width: 760px) {
+    height:100%;
+
+  .cardBg {
+    flex-direction: column;
+    padding: 24px 0;
+  }
+
+      div.card1,
+    .card2,
+    .card3 {
+      height: 300px;
+      margin: 0;
+
+      img {
+        width: 80px;
+      }
+    }
+>>>>>>> 1e9dd5cbc9d75252032e67c100a52f369c33d5ac
   }
 
   &:nth-child(3) {
