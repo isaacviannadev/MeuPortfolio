@@ -17,7 +17,7 @@ function Services() {
         <div className="cardBg">
           <div className="card1">
             <img src={devImg} alt="desenvolvimento web" />
-            <h1>Desenvolvimento Web</h1>
+            <h1>Web</h1>
 
             <p>
               {" "}
@@ -29,7 +29,7 @@ function Services() {
           </div>
           <div className="card2">
             <img src={mobImg} alt="desenvolvimento web" />
-            <h1>Desenvolvimento Web</h1>
+            <h1>Mobile</h1>
 
             <p>
               {" "}
@@ -41,7 +41,7 @@ function Services() {
           </div>
           <div className="card3">
             <img src={designImg} alt="desenvolvimento web" />
-            <h1>Desenvolvimento Web</h1>
+            <h1>Design</h1>
 
             <p>
               {" "}

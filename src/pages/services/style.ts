@@ -48,7 +48,7 @@ export const Container = styled.div`
     &:hover {
       box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.7);
       transform: translateX(-1%) translateY(-1%);
-      /* border: 1px solid #eac400; */
+      /* border: 3px solid #eac400; */
     }
   }
 
@@ -76,7 +76,12 @@ export const Container = styled.div`
 
   p {
     font: 400 20px Turret Road;
+    margin: 0 20px;
     
     
+  }
+
+  &:nth-child(3) {
+
   }
 `;
