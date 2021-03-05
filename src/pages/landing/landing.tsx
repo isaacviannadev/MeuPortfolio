@@ -21,9 +21,7 @@ function Landing() {
           Isaac Vianna
         </p>
       </Main>
-      //#region
       <About />
-      //#endregion
       <Services />
       <Footer />
     </>
