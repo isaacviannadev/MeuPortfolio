@@ -2,13 +2,25 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   max-width: 100vw;
-  height: calc(100vh - 90px);
+  height: 90vh;
   padding: 20px;
 
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 4px dotted  #eac400;
+
+  video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.4;
+    filter: blur(4px);
+  }
 
   img {
     max-width: 100%;

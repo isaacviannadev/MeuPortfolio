@@ -36,6 +36,7 @@ export const UlRight = styled.ul.attrs((props: PropOpenNav) => ({
     width: 250px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
+    overflow-x: hidden;
 
     a {
     margin-right: 0;

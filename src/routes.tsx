@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import About from './pages/about/about';
 import Landing from './pages/landing/landing';
-import Services from './pages/services/services';
+import Services from './pages/serviços/services';
 
 
 function Routes() {

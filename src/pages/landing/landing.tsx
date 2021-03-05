@@ -3,22 +3,29 @@ import { Main } from "./style";
 
 import HeadMenu from "../../components/Header/header";
 import LogoBig from "../../images/logobig.svg";
+import Video from "../../video/codes.mp4";
 import Footer from "../../components/Footer/footer";
+import About from "../about/about";
+import Services from "../serviços/services";
 
 function Landing() {
   return (
     <>
-     <HeadMenu />
+      <HeadMenu />
+      <Main>
+        <video src={Video} autoPlay muted loop />
 
-        <Main>
-          <img src={LogoBig} alt="" />
-          <p>
-            <strong>Dev </strong>
-            Isaac Vianna
-          </p>
-        </Main>
-
-        <Footer />
+        <img src={LogoBig} alt="" />
+        <p>
+          <strong>Dev </strong>
+          Isaac Vianna
+        </p>
+      </Main>
+      //#region
+      <About />
+      //#endregion
+      <Services />
+      <Footer />
     </>
   );
 }
